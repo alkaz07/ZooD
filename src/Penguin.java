@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Penguin extends Bird{
+public class Penguin extends Bird implements Swimmable{
     public Penguin() {
         super("черно-белое");
     }

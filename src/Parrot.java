@@ -1,8 +1,8 @@
 import java.util.Random;
 
-public class Parrot extends Bird {
+public class Parrot extends Bird implements Flyable {
     //память фраз - то свойство каждого отдельного объекта Попугая
-    String[] arr_sound = {"Тысяча чертей", "Штиль, ветер молчит", "Чик чирик", "Упал белой чайкой на дно", "Карамба капитан"};
+    String[] arr_sound = {"Тысяча чертей!", "Штиль, ветер молчит", "Чик чирик", "Упал белой чайкой на дно", "Карамба капитан"};
     String name="";
 
     public Parrot(String featherColoring) {
